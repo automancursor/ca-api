@@ -1,0 +1,6 @@
+FROM node:12-slim
+WORKDIR /ladbrokes-api
+ADD . .
+RUN npm install
+CMD ["npm", "start"]
+
