@@ -1,0 +1,64 @@
+@import "styles/global.scss";
+
+.wrapper {
+  padding-top: 5rem;
+  .call-for-login {
+    @include centerIt;
+    justify-content: space-between;
+    padding: 0 1.6rem;
+    height: 5.4rem;
+    &-left {
+      display: block;
+      font-size: 1.6rem;
+      color: rgba(0, 0, 0, 0.87);
+    }
+    &-right {
+      font-size: 1.25rem;
+      color: rgba(0, 0, 0, 0.54);
+    }
+  }
+  .content {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.green_team {
+  background-color: #11e111;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  //margin: 0 1px;
+}
+.team_light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red_team {
+  background-color: #ff0000;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  //margin: 0 1px;
+}
+.null_color {
+  border: 1px solid #cccccc;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  //margin: 0 5px;
+}
+.yellow_team {
+  background-color: #f8c359;
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  //margin: 0 1px;
+}

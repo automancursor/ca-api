@@ -1,0 +1,21 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  background: #f2f2f2;
+  color: #666;
+  img {
+    margin: 0 1rem;
+    width: 2rem;
+  }
+  .text {
+    color: rgb(102, 102, 102);
+    font-size: 1.6rem;
+  }
+}

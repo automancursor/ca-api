@@ -1,0 +1,19 @@
+@import "styles/global.scss";
+
+.wrapper {
+  margin-top: 5rem;
+  .set_up .mui-table-view-cell {
+    border-bottom: 1px solid #d4d4d4;
+  }
+  .mui-table-view {
+    font-size: 1.5rem;
+    background-color: #fff;
+  }
+  .mui-table-view-cell{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mui-navigate-right {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "./reset.scss";
+@import "../assets/scss/bootstrap.scss";
+
+html,
+body {
+  width: 100vw;
+  font-size: 10px;
+  background: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type="text"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/**
+* 水平垂直居中
+*/
+@mixin centerIt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
